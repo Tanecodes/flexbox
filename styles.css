@@ -5,7 +5,16 @@
 }
 
 .menu-container {
+  display: flex;
+  justify-content: center;
   color: #fff;
   background-color: #5995DA;  /* Blue */
   padding: 20px 0;
+}
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
 }
